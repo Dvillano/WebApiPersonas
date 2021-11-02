@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiPersonas", "WebApiPersonas\WebApiPersonas.csproj", "{88E7841A-CE28-4C99-ADD8-2421F740654E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWMedicos", "SWMedicos\SWMedicos.csproj", "{9A385753-31CC-4109-A004-038F58728F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWMedicos", "SWMedicos\SWMedicos.csproj", "{9A385753-31CC-4109-A004-038F58728F95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWAlumnos", "SWAlumnos\SWAlumnos.csproj", "{B4550B6B-5787-459A-88D7-34C045BA8AD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEscuela", "WebApiEscuela\WebApiEscuela.csproj", "{1CCC0F49-F0AB-47A0-9334-32A107496AE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{9A385753-31CC-4109-A004-038F58728F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A385753-31CC-4109-A004-038F58728F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A385753-31CC-4109-A004-038F58728F95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4550B6B-5787-459A-88D7-34C045BA8AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4550B6B-5787-459A-88D7-34C045BA8AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4550B6B-5787-459A-88D7-34C045BA8AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4550B6B-5787-459A-88D7-34C045BA8AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCC0F49-F0AB-47A0-9334-32A107496AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCC0F49-F0AB-47A0-9334-32A107496AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCC0F49-F0AB-47A0-9334-32A107496AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCC0F49-F0AB-47A0-9334-32A107496AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

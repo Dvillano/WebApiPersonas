@@ -5,12 +5,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SWMedicos.Models
+namespace WebApiEscuela.Models
 {
-    public class Alumno
+    public class Profesor
     {
         [Key]
         public int Id { get; set; }
+
         [Required]
         [Column(TypeName = "varchar")]
         [MaxLength(50)]
@@ -20,11 +21,10 @@ namespace SWMedicos.Models
         [Column(TypeName = "varchar")]
         [MaxLength(50)]
         public string Apellido { get; set; }
-        public int Matricula { get; set; }
 
         [Required]
         [Column(TypeName = "varchar")]
         [MaxLength(50)]
-        public string Ciudad { get; set; }
+        public string Titulo { get; set; }
     }
 }
