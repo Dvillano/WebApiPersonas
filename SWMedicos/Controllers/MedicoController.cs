@@ -66,5 +66,16 @@ namespace SWMedicos.Controllers
             context.SaveChanges();
             return medico;
         }
+
+        //Traer medico por especialidad
+        [HttpGet("TraerEspecialidad/{especialidad}")]
+        public IEnumerable<Medico> GetByEspecialidad(string especialidad)
+        {
+            var medicos = (from m in context.Medico
+                           where m.Especialidad == especialidad
+                           select m).ToList();
+
+            return medicos;
+        }
     }
 }

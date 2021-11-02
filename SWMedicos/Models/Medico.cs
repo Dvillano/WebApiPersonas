@@ -27,6 +27,8 @@ namespace SWMedicos.Models
         [MaxLength(50)]
         public string Especialidad { get; set; }
         public int NroMatricula { get; set; }
+
+        [Column(TypeName = "date")]
         public DateTime FechaNacimiento { get; set; }
 
         [Column(TypeName = "varchar")]
