@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace SWMedicos.Models
 {
-    public class Medico
+    public class Alumno
     {
         [Key]
         public int Id { get; set; }
-
         [Required]
         [Column(TypeName = "varchar")]
         [MaxLength(50)]
@@ -21,17 +20,9 @@ namespace SWMedicos.Models
         [Column(TypeName = "varchar")]
         [MaxLength(50)]
         public string Apellido { get; set; }
+        public int Matricula { get; set; }
 
         [Required]
-        [Column(TypeName = "varchar")]
-        [MaxLength(50)]
-        public string Especialidad { get; set; }
-        public int NroMatricula { get; set; }
-
-        [Column(TypeName = "date")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yy}")]
-        public DateTime FechaNacimiento { get; set; }
-
         [Column(TypeName = "varchar")]
         [MaxLength(50)]
         public string Ciudad { get; set; }
